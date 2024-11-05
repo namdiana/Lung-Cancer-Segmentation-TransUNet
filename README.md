@@ -1,1 +1,6 @@
 # Lung-Cancer-Segmentation-TransUNet
+For the Lung Cancer Segmentation project using **TransUNet**[1], we employed the code from the original TransUNet model, which is specifically designed to combine convolutional neural networks with transformer layers for efficient medical image segmentation. Pretrained weights for the model are accessible [2], allowing initialization with robust feature extraction capabilities. Additionally, the lung cancer segmentation dataset [3] is available here for testing. This model effectively integrates CNN and Transformer structures, enabling detailed and accurate segmentation of lung tumors in CT images, particularly beneficial in the early detection and treatment planning of lung cancer.
+**References**
+1. Chen, J., Lu, Y., Yu, Q., Luo, X., Adeli, E., Wang, Y., ... & Zhou, Y. (2021). Transunet: Transformers make strong encoders for medical image segmentation. arXiv preprint arXiv:2102.04306. github: TransUNet **https://github.com/Beckschen/TransUNet**
+2. Weights for TransUNet https://drive.google.com/drive/folders/1-3bsO3c83EkhNLFwB_wHP_podNtI7Wbb?usp=sharing
+3. Nam, Diana; Panina, Alexandra; Pak, Alexandr (2024), “Lung cancer segmentation dataset with Lung-RADS class”, Mendeley Data, V1, doi: 10.17632/5rr22hgzwr.1 
